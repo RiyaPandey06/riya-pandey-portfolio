@@ -543,16 +543,6 @@ const experience = [
     ],
     cert: LINKS.certVaultofCodes,
   },
-  {
-    role: "Machine Learning Intern",
-    org: "Code Alpha",
-    date: "July 2026 – August 2026",
-    points: [
-      "Engineered a credit-scoring model from raw financial data — income, debt and payment history — comparing Logistic Regression, Decision Trees and Random Forest to find the strongest predictor of creditworthiness.",
-      "Rigorously benchmarked results with Precision, Recall, F1 and ROC-AUC, then extended the approach to a disease-prediction system (SVM, Random Forest, XGBoost) across three UCI clinical datasets.",
-    ],
-    cert: LINKS.certCodeAlpha,
-  },
 ];
 
 const projects = [
@@ -633,7 +623,7 @@ export default function Portfolio() {
         osc.type = "sine";
         osc.frequency.setValueAtTime(freq, now + i * 0.32);
         gain.gain.setValueAtTime(0.001, now + i * 0.32);
-        gain.gain.exponentialRampToValueAtTime(0.06, now + i * 0.32 + 0.05);
+        gain.gain.exponentialRampToValueAtTime(0.25, now + i * 0.32 + 0.05);
         gain.gain.exponentialRampToValueAtTime(0.001, now + i * 0.32 + 0.4);
         osc.connect(gain).connect(ctx.destination);
         osc.start(now + i * 0.32);
