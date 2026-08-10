@@ -3,7 +3,7 @@
 A personal developer portfolio built as a "streaming platform" for my work — Netflix-style browsing rows for skills and projects, with cinematic curtain-reveal transitions between sections as you scroll.
 
 
-**Live demo:** [add your deployed URL here once hosted]
+**Live demo:(https://riya-pandey-portfolio.vercel.app/)
 
 ---
 
